@@ -1,0 +1,37 @@
+[
+    {
+        "Item Name": "BBQ Rice Bowl",
+        "Price ": "170",
+        "Category": "RICE_BOWL"
+    },
+    {
+        "Item Name": "Chilli Chicken Rice Bowl",
+        "Price ": "170",
+        "Category": "RICE_BOWL"
+    },
+    {
+        "Item Name": "Smokey BBQ Meat Box",
+        "Price ": "170",
+        "Category": "MEAT_BOX"
+    },
+    {
+        "Item Name": "Classic Meat Box",
+        "Price ": "190",
+        "Category": "MEAT_BOX"
+    },
+    {
+        "Item Name": "Chocholate Milkshake",
+        "Price ": "70",
+        "Category": "COLD_DRINKS"
+    },
+    {
+        "Item Name": "Strawberry Milkshake",
+        "Price ": "60",
+        "Category": "COLD_DRINKS"
+    },
+    {
+        "Item Name": "Chocolate Cold Coffee",
+        "Price ": "60",
+        "Category": "COLD_DRINKS"
+    }
+]
