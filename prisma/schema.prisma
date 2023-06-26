@@ -63,7 +63,7 @@ model VerificationToken {
 }
 
 model Item {
-    id                String      @id @unique
+    id                String      @id @unique @default(uuid())
     name              String
     description       String
     price             Int
@@ -72,7 +72,7 @@ model Item {
 }
 
 model OrderItem {
-    id String @id @unique
+    id String @id @unique @default(uuid())
 
     item     Item   @relation(fields: [itemId], references: [id])
     itemId   String
@@ -98,7 +98,7 @@ enum OrderStatus {
 }
 
 model Order {
-    id                    String      @id @unique
+    id                    String      @id @unique @default(uuid())
     customer              User        @relation(name: "customer", fields: [userId], references: [id])
     userId                String
     type                  String
@@ -117,7 +117,7 @@ model Order {
 }
 
 model Delivery {
-    id               String @id @unique @default(dbgenerated("uuid_generate_v4()"))
+    id               String @id @unique @default(uuid())
     order            Order  @relation(fields: [orderId], references: [id])
     orderId          String
     deliveryPerson   User   @relation(name: "delivery", fields: [deliveryPersonId], references: [id])
