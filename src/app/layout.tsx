@@ -1,4 +1,4 @@
-import "./globals.css";
+//import "./globals.css";
 import React from "react";
 import NextAuthSessionProvider from "./providers/sessionProvider";
 // import { type NextPage } from "next";
