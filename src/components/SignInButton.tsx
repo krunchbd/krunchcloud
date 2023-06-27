@@ -6,12 +6,16 @@ import React from "react";
 
 export default function SignInButton() {
   const session = useSession();
+
   console.log(session);
-  if (session.status === "unauthenticated")
+  if (session.status !== "authenticated")
     return (
       <div>
         <div>
-          <button onClick={() => signIn()}> Sign In</button>
+          <button className="btn-primary btn" onClick={() => signIn()}>
+            {" "}
+            Sign In
+          </button>
         </div>
       </div>
     );
@@ -19,8 +23,11 @@ export default function SignInButton() {
   return (
     <div>
       {session.data?.user?.name}
-      User is signed in
-      <button onClick={() => signOut()}> Sign Out</button>
+
+      <button className="btn-accent btn" onClick={() => signOut()}>
+        {" "}
+        Sign Out
+      </button>
     </div>
   );
 }
