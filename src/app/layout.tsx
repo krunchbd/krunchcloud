@@ -1,5 +1,6 @@
 import "./globals.css";
 import React from "react";
+import NextAuthSessionProvider from "./providers/sessionProvider";
 // import { type NextPage } from "next";
 // import Head from "next/head";
 // import Link from "next/link";
@@ -20,7 +21,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className=" bg-black ">
-      <body>{children}</body>
+      <body>
+        <NextAuthSessionProvider>{children}</NextAuthSessionProvider>
+      </body>
     </html>
   );
 }

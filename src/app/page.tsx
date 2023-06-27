@@ -1,19 +1,14 @@
 import React from "react";
 import { Montserrat } from "next/font/google";
-
+import SignInButton from "~/components/SignInButton";
 // If loading a variable font, you don't need to specify the font weight
-const montserrat = Montserrat({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-montserrat",
-});
 
-const Home = () => {
+export default function Home() {
   return (
-    <div className="h-screen">
-      <p className="text-white">Cool</p>
-    </div>
+    <main className="text-white">
+      <div>
+        <SignInButton />
+      </div>
+    </main>
   );
-};
-
-export default Home;
+}
