@@ -1,5 +1,5 @@
 import { PrismaAdapter } from "@next-auth/prisma-adapter";
-import { Prisma } from "@prisma/client";
+import { Prisma, type User } from "@prisma/client";
 import type { NextAuthOptions } from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 import { prisma } from "./db";
@@ -21,7 +21,9 @@ export const authOptions: NextAuthOptions = {
         password: { label: "Password", type: "password" },
       },
       async authorize(credentials) {
-        const user = await fetch("/api/checkauth", ).then((res) => res.json());
+        const user = (await fetch("/api/checkauth").then((res) =>
+          res.json()
+        )) as User;
         return user;
       },
     }),

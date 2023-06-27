@@ -12,7 +12,7 @@ export default function SignInButton() {
     return (
       <div>
         <div>
-          <button className="btn-primary btn" onClick={() => signIn()}>
+          <button className="btn-primary btn" onClick={() => void signIn()}>
             {" "}
             Sign In
           </button>
@@ -24,7 +24,7 @@ export default function SignInButton() {
     <div>
       {session.data?.user?.name}
 
-      <button className="btn-accent btn" onClick={() => signOut()}>
+      <button className="btn-accent btn" onClick={() => void signOut()}>
         {" "}
         Sign Out
       </button>

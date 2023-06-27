@@ -1,16 +1,9 @@
-import { NextApiRequest, NextApiResponse } from "next";
-import { AuthOptions } from "next-auth";
-import NextAuth from "next-auth/next";
 import { authOptions } from "~/server/auth";
 
-type nextAuthHandlerParams = {
-  req: NextApiRequest;
-  res: NextApiResponse;
-  options: AuthOptions;
-};
+import NextAuth from "next-auth/next";
 
-type nextAuthHandler = (params: nextAuthHandlerParams) => Promise<void>;
+type nextAuthHandler = () => Promise<void>;
 
-const handler = NextAuth(authOptions) as nextAuthHandler;
+const handler: nextAuthHandler = NextAuth(authOptions) as nextAuthHandler;
 
 export { handler as GET, handler as POST };
