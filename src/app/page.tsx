@@ -4,7 +4,7 @@ import { Item } from "@prisma/client";
 import Modal from "./CartModal";
 import MenuContainer from "./MenuContainer";
 
-export default async function Menu() {
+export default function Menu() {
   const menuItems = menu_items as unknown as Item[];
 
   return (
