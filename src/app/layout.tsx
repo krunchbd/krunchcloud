@@ -6,6 +6,7 @@ import NextAuthSessionProvider from "./providers/sessionProvider";
 // import Link from "next/link";
 // import { api } from "~/utils/api";
 import type { Metadata } from "next";
+import SignInButton from "~/components/SignInButton";
 
 export const metadata: Metadata = {
   title: "Krunch Cloud",
@@ -21,8 +22,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className=" bg-black ">
-      <body>
-        <NextAuthSessionProvider>{children}</NextAuthSessionProvider>
+      <body className="">
+        <NextAuthSessionProvider>
+          <div className="flex flex-row">
+            <div className="m-2 border">
+              {" "}
+              <SignInButton />
+            </div>
+
+            {children}
+          </div>
+        </NextAuthSessionProvider>
       </body>
     </html>
   );

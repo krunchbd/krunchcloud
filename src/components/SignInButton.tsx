@@ -19,13 +19,15 @@ export default function SignInButton() {
         </div>
       </div>
     );
-
   return (
-    <div>
-      {session.data?.user?.name}
-
+    <div className="m-2 content-center items-center text-center">
+      <div className="flex justify-center">
+        {session.data?.user?.image && (
+          <img className="rounded-full" src={session.data?.user?.image} />
+        )}
+      </div>
+      <p>{session.data?.user?.name}</p>
       <button className="btn-accent btn" onClick={() => void signOut()}>
-        {" "}
         Sign Out
       </button>
     </div>

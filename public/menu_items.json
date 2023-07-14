@@ -1,37 +1,51 @@
 [
-    {
-        "Item Name": "BBQ Rice Bowl",
-        "Price ": "170",
-        "Category": "RICE_BOWL"
-    },
-    {
-        "Item Name": "Chilli Chicken Rice Bowl",
-        "Price ": "170",
-        "Category": "RICE_BOWL"
-    },
-    {
-        "Item Name": "Smokey BBQ Meat Box",
-        "Price ": "170",
-        "Category": "MEAT_BOX"
-    },
-    {
-        "Item Name": "Classic Meat Box",
-        "Price ": "190",
-        "Category": "MEAT_BOX"
-    },
-    {
-        "Item Name": "Chocholate Milkshake",
-        "Price ": "70",
-        "Category": "COLD_DRINKS"
-    },
-    {
-        "Item Name": "Strawberry Milkshake",
-        "Price ": "60",
-        "Category": "COLD_DRINKS"
-    },
-    {
-        "Item Name": "Chocolate Cold Coffee",
-        "Price ": "60",
-        "Category": "COLD_DRINKS"
-    }
+  {
+    "id": "uuid",
+    "name": "BBQ Rice Bowl",
+    "price": 170,
+    "category": "RICE_BOWL",
+    "description": "string"
+  },
+  {
+    "id": "uuid",
+    "name": "Chilli Chicken Rice Bowl",
+    "price": 170,
+    "category": "RICE_BOWL",
+    "description": "string"
+  },
+  {
+    "id": "uuid",
+    "name": "Smokey BBQ Meat Box",
+    "price": 170,
+    "category": "MEAT_BOX",
+    "description": "string"
+  },
+  {
+    "id": "uuid",
+    "name": "Classic Meat Box",
+    "price": 190,
+    "category": "MEAT_BOX",
+    "description": "string"
+  },
+  {
+    "id": "uuid",
+    "name": "Chocholate Milkshake",
+    "price": 70,
+    "category": "COLD_DRINKS",
+    "description": "string"
+  },
+  {
+    "id": "uuid",
+    "name": "Strawberry Milkshake",
+    "price": 60,
+    "category": "COLD_DRINKS",
+    "description": "string"
+  },
+  {
+    "id": "uuid",
+    "name": "Chocolate Cold Coffee",
+    "price": 60,
+    "category": "COLD_DRINKS",
+    "description": "string"
+  }
 ]

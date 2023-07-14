@@ -1,0 +1,1377 @@
+﻿{QTtext} {font:Tahoma}
+{plain} {size:20}
+{timeScale:30}
+{width:160} {height:32}
+{timestamps:absolute} {language:0}
+[00:00:00.03]
+hey everyone my name is vishwas and
+[00:00:03.01]
+
+[00:00:02.07]
+today we're going to talk about the
+[00:00:06.16]
+
+[00:00:03.01]
+react ecosystem in 2023
+[00:00:08.20]
+
+[00:00:06.16]
+as we reach the Midway point of the Year
+[00:00:11.11]
+
+[00:00:08.20]
+react continues to be one of the most
+[00:00:13.01]
+
+[00:00:11.11]
+widely used JavaScript libraries out
+[00:00:15.17]
+
+[00:00:13.01]
+there and remains a favorite amongst
+[00:00:17.05]
+
+[00:00:15.17]
+Developers
+[00:00:19.05]
+
+[00:00:17.05]
+but with so many tools and libraries
+[00:00:21.23]
+
+[00:00:19.05]
+available within the react ecosystem it
+[00:00:24.01]
+
+[00:00:21.23]
+can be quite challenging to choose the
+[00:00:26.18]
+
+[00:00:24.01]
+right combination for your project in
+[00:00:28.01]
+
+[00:00:26.18]
+this video I'm going to walk you through
+[00:00:30.17]
+
+[00:00:28.01]
+the most essential libraries that are
+[00:00:33.03]
+
+[00:00:30.17]
+widely used and trusted by developers in
+[00:00:34.21]
+
+[00:00:33.03]
+the react community
+[00:00:36.17]
+
+[00:00:34.21]
+hopefully it should help you make
+[00:00:39.01]
+
+[00:00:36.17]
+informed decisions on the right tools to
+[00:00:42.00]
+
+[00:00:39.01]
+use for your next react project
+[00:00:44.09]
+
+[00:00:42.00]
+our first section is on getting started
+[00:00:46.21]
+
+[00:00:44.09]
+with react for those who are new to
+[00:00:49.02]
+
+[00:00:46.21]
+react getting started can be a daunting
+[00:00:51.21]
+
+[00:00:49.02]
+task there are a few different ways to
+[00:00:55.00]
+
+[00:00:51.21]
+get started which can be confusing
+[00:00:57.16]
+
+[00:00:55.00]
+if you are new to react or if you just
+[00:00:59.00]
+
+[00:00:57.16]
+want to play around with it without
+[00:01:01.13]
+
+[00:00:59.00]
+setting up a project you can use online
+[00:01:04.13]
+
+[00:01:01.13]
+sandboxes like code sandbox
+[00:01:06.16]
+
+[00:01:04.13]
+or stag Blitz
+[00:01:09.10]
+
+[00:01:06.16]
+these sandboxes provide a virtual
+[00:01:11.12]
+
+[00:01:09.10]
+environment where you can write and test
+[00:01:13.13]
+
+[00:01:11.12]
+your react code without having to
+[00:01:16.15]
+
+[00:01:13.13]
+install anything on your computer
+[00:01:19.15]
+
+[00:01:16.15]
+online sandboxes aside a popular choice
+[00:01:21.23]
+
+[00:01:19.15]
+is wheat which is a build tool that
+[00:01:24.04]
+
+[00:01:21.23]
+provides a fast and easy development
+[00:01:26.20]
+
+[00:01:24.04]
+experience for modern Web projects
+[00:01:29.12]
+
+[00:01:26.20]
+read supports react out of the box which
+[00:01:30.23]
+
+[00:01:29.12]
+means that you can quickly set up a
+[00:01:32.12]
+
+[00:01:30.23]
+react Project without having to
+[00:01:36.08]
+
+[00:01:32.12]
+configure the build process manually
+[00:01:36.08]
+
+[00:01:36.09]
+another popular choice for getting
+[00:01:41.21]
+
+[00:01:38.08]
+started with react is next shares it is
+[00:01:44.11]
+
+[00:01:41.21]
+a framework built on top of react
+[00:01:46.16]
+
+[00:01:44.11]
+nextges provides a robust set of
+[00:01:48.01]
+
+[00:01:46.16]
+features including automatic code
+[00:01:50.20]
+
+[00:01:48.01]
+splitting server-side rendering static
+[00:01:52.23]
+
+[00:01:50.20]
+site generation and more
+[00:01:55.09]
+
+[00:01:52.23]
+Nexus is great for building complex
+[00:01:57.11]
+
+[00:01:55.09]
+applications that require server-side
+[00:02:01.08]
+
+[00:01:57.11]
+rendering and SEO optimization
+[00:02:04.13]
+
+[00:02:01.08]
+next let's talk about routing routing is
+[00:02:06.11]
+
+[00:02:04.13]
+an essential part of any modern web
+[00:02:08.15]
+
+[00:02:06.11]
+application and there are many excellent
+[00:02:10.02]
+
+[00:02:08.15]
+routing libraries available to handle
+[00:02:13.01]
+
+[00:02:10.02]
+complex routing logic and create Dynamic
+[00:02:15.24]
+
+[00:02:13.01]
+single page applications
+[00:02:18.17]
+
+[00:02:15.24]
+one of the most popular routing
+[00:02:21.23]
+
+[00:02:18.17]
+libraries for react is react router
+[00:02:24.09]
+
+[00:02:21.23]
+react router provides a simple and
+[00:02:26.12]
+
+[00:02:24.09]
+declarative way to handle routing in
+[00:02:28.24]
+
+[00:02:26.12]
+your react application allowing you to
+[00:02:30.06]
+
+[00:02:28.24]
+Define routes and render different
+[00:02:33.13]
+
+[00:02:30.06]
+components based on the current URL
+[00:02:36.01]
+
+[00:02:33.13]
+an alternative which is a nuclear on the
+[00:02:39.12]
+
+[00:02:36.01]
+Block is tan stack router it is feature
+[00:02:41.19]
+
+[00:02:39.12]
+Rich and lightweight but has relatively
+[00:02:45.06]
+
+[00:02:41.19]
+smaller usage compared to react router
+[00:02:46.22]
+
+[00:02:45.06]
+on the other hand if you're using
+[00:02:48.20]
+
+[00:02:46.22]
+next.js you don't have to worry about
+[00:02:51.19]
+
+[00:02:48.20]
+choosing a routing Library as Nexus has
+[00:02:54.00]
+
+[00:02:51.19]
+routing built in
+[00:02:56.12]
+
+[00:02:54.00]
+next let's talk about client State
+[00:02:57.16]
+
+[00:02:56.12]
+Management
+[00:03:00.09]
+
+[00:02:57.16]
+as your application grows it helps to be
+[00:03:02.12]
+
+[00:03:00.09]
+more intentional about how your state is
+[00:03:05.01]
+
+[00:03:02.12]
+organized and how the data flows between
+[00:03:07.13]
+
+[00:03:05.01]
+your components a popular state
+[00:03:09.20]
+
+[00:03:07.13]
+management library for react is Redux
+[00:03:10.22]
+
+[00:03:09.20]
+toolkit
+[00:03:13.09]
+
+[00:03:10.22]
+it provides a simplified API for
+[00:03:16.02]
+
+[00:03:13.09]
+defining and updating State as well as
+[00:03:18.00]
+
+[00:03:16.02]
+built-in support for features such as
+[00:03:20.12]
+
+[00:03:18.00]
+immutable updates serializable action
+[00:03:23.04]
+
+[00:03:20.12]
+types and more
+[00:03:25.06]
+
+[00:03:23.04]
+Sue stand is another state management
+[00:03:27.19]
+
+[00:03:25.06]
+liability for react that provides a
+[00:03:29.01]
+
+[00:03:27.19]
+simple and lightweight solution for
+[00:03:31.15]
+
+[00:03:29.01]
+managing state in your application
+[00:03:34.06]
+
+[00:03:31.15]
+it provides a built-in mechanism for
+[00:03:36.12]
+
+[00:03:34.06]
+subscribing to State changes allowing
+[00:03:38.23]
+
+[00:03:36.12]
+you to easily keep your UI in sync with
+[00:03:40.03]
+
+[00:03:38.23]
+your data
+[00:03:42.19]
+
+[00:03:40.03]
+it is a great choice for developers who
+[00:03:45.01]
+
+[00:03:42.19]
+want a lightweight and easy to use State
+[00:03:47.07]
+
+[00:03:45.01]
+Management solution without the overhead
+[00:03:50.23]
+
+[00:03:47.07]
+of a larger Library like redox
+[00:03:53.05]
+
+[00:03:50.23]
+if there is client State there should be
+[00:03:54.17]
+
+[00:03:53.05]
+server state
+[00:03:56.02]
+
+[00:03:54.17]
+server State Management refers to the
+[00:03:58.19]
+
+[00:03:56.02]
+management of data that is stored on the
+[00:04:01.06]
+
+[00:03:58.19]
+server and is accessed remotely by the
+[00:04:02.18]
+
+[00:04:01.06]
+client application
+[00:04:04.21]
+
+[00:04:02.18]
+this data can include user
+[00:04:07.07]
+
+[00:04:04.21]
+authentication details database records
+[00:04:09.17]
+
+[00:04:07.07]
+and other backend data
+[00:04:11.12]
+
+[00:04:09.17]
+to manage server state in react
+[00:04:13.18]
+
+[00:04:11.12]
+applications there are several libraries
+[00:04:15.00]
+
+[00:04:13.18]
+available
+[00:04:18.01]
+
+[00:04:15.00]
+the most popular one is tan stack query
+[00:04:20.11]
+
+[00:04:18.01]
+which provides a simple and Powerful way
+[00:04:22.03]
+
+[00:04:20.11]
+to manage server state in react
+[00:04:23.14]
+
+[00:04:22.03]
+applications
+[00:04:25.11]
+
+[00:04:23.14]
+it provides a caching layer that
+[00:04:27.09]
+
+[00:04:25.11]
+automatically manages the state of your
+[00:04:30.19]
+
+[00:04:27.09]
+data fetching and updating it as needed
+[00:04:32.17]
+
+[00:04:30.19]
+the library also provides a number of
+[00:04:34.18]
+
+[00:04:32.17]
+built-in features such as automatic
+[00:04:37.11]
+
+[00:04:34.18]
+refetching Cooling and pagination making
+[00:04:39.02]
+
+[00:04:37.11]
+it really easy to work with complex data
+[00:04:41.13]
+
+[00:04:39.02]
+sets
+[00:04:44.07]
+
+[00:04:41.13]
+now if you're using Redux toolkit for
+[00:04:46.21]
+
+[00:04:44.07]
+client State Management Redux toolkit
+[00:04:49.09]
+
+[00:04:46.21]
+query is a great choice for seamlessly
+[00:04:52.00]
+
+[00:04:49.09]
+managing server state
+[00:04:54.01]
+
+[00:04:52.00]
+Apollo client is another popular library
+[00:04:56.12]
+
+[00:04:54.01]
+for managing server state in react
+[00:04:57.19]
+
+[00:04:56.12]
+applications
+[00:04:59.12]
+
+[00:04:57.19]
+it is particularly well suited for
+[00:05:03.01]
+
+[00:04:59.12]
+working with graphql apis
+[00:05:05.07]
+
+[00:05:03.01]
+for the next section let's talk about
+[00:05:07.00]
+
+[00:05:05.07]
+form handling
+[00:05:09.06]
+
+[00:05:07.00]
+handling forms can be a tedious and
+[00:05:11.01]
+
+[00:05:09.06]
+error-prone task but there are now
+[00:05:13.02]
+
+[00:05:11.01]
+excellent form handling libraries
+[00:05:15.04]
+
+[00:05:13.02]
+available for react
+[00:05:17.08]
+
+[00:05:15.04]
+some of the most popular options include
+[00:05:20.11]
+
+[00:05:17.08]
+formic and react hook form
+[00:05:22.15]
+
+[00:05:20.11]
+while formic provides a simple and
+[00:05:25.03]
+
+[00:05:22.15]
+intuitive API for managing form State
+[00:05:27.16]
+
+[00:05:25.03]
+validating inputs and submitting the
+[00:05:30.01]
+
+[00:05:27.16]
+data this library is not being actively
+[00:05:32.16]
+
+[00:05:30.01]
+maintained
+[00:05:36.09]
+
+[00:05:32.16]
+in 2023 react hook form should be your
+[00:05:39.01]
+
+[00:05:36.09]
+go-to library for form handling it is
+[00:05:42.04]
+
+[00:05:39.01]
+lightweight fast and easy to use
+[00:05:44.20]
+
+[00:05:42.04]
+it also provides a flexible API for
+[00:05:47.00]
+
+[00:05:44.20]
+building forms and allows you to easily
+[00:05:49.08]
+
+[00:05:47.00]
+integrate with other libraries such as
+[00:05:52.03]
+
+[00:05:49.08]
+yup and Zod for validation
+[00:05:54.19]
+
+[00:05:52.03]
+unlike formic reactive form does not
+[00:05:57.03]
+
+[00:05:54.19]
+require a lot of boilerplate code and
+[00:05:58.22]
+
+[00:05:57.03]
+can significantly reduce the amount of
+[00:06:00.22]
+
+[00:05:58.22]
+code needed to handle form data
+[00:06:03.02]
+
+[00:06:00.22]
+additionally react hook form has
+[00:06:06.03]
+
+[00:06:03.02]
+excellent performance as the component
+[00:06:08.17]
+
+[00:06:06.03]
+does not re-render for every change in
+[00:06:10.01]
+
+[00:06:08.17]
+the field value
+[00:06:13.22]
+
+[00:06:10.01]
+next up we have testing testing is an
+[00:06:15.01]
+
+[00:06:13.22]
+essential part of building high quality
+[00:06:18.03]
+
+[00:06:15.01]
+react applications and when it comes to
+[00:06:21.04]
+
+[00:06:18.03]
+testing react apps two excellent options
+[00:06:24.03]
+
+[00:06:21.04]
+to consider are we test with react
+[00:06:26.14]
+
+[00:06:24.03]
+testing library for your new testing and
+[00:06:30.13]
+
+[00:06:26.14]
+playwright for end-to-end testing
+[00:06:33.16]
+
+[00:06:30.13]
+retest is a pleasing fast unit test
+[00:06:35.19]
+
+[00:06:33.16]
+framework powered by read
+[00:06:38.15]
+
+[00:06:35.19]
+in the context of testing react apps it
+[00:06:41.11]
+
+[00:06:38.15]
+is a test Runner that finds your tests
+[00:06:44.07]
+
+[00:06:41.11]
+runs them determines whether the tests
+[00:06:46.18]
+
+[00:06:44.07]
+passed or failed and reports it back in
+[00:06:49.07]
+
+[00:06:46.18]
+a human readable manner
+[00:06:52.09]
+
+[00:06:49.07]
+react testing library is a JavaScript
+[00:06:54.13]
+
+[00:06:52.09]
+testing utility that provides virtual
+[00:06:58.06]
+
+[00:06:54.13]
+Dom for testing react components with
+[00:07:00.20]
+
+[00:06:58.06]
+the automated tests we write there is no
+[00:07:03.11]
+
+[00:07:00.20]
+actual Dom to work with react testing
+[00:07:05.14]
+
+[00:07:03.11]
+liability provides a virtual Dom which
+[00:07:07.16]
+
+[00:07:05.14]
+we can use to interact with and verify
+[00:07:10.21]
+
+[00:07:07.16]
+the behavior of a react component
+[00:07:13.16]
+
+[00:07:10.21]
+now playwright is an end-to-end testing
+[00:07:15.16]
+
+[00:07:13.16]
+library that provides a reliable and
+[00:07:17.05]
+
+[00:07:15.16]
+robust way to test your react
+[00:07:19.07]
+
+[00:07:17.05]
+applications functionality from end to
+[00:07:20.05]
+
+[00:07:19.07]
+end
+[00:07:22.15]
+
+[00:07:20.05]
+with playwright you can write tests that
+[00:07:24.09]
+
+[00:07:22.15]
+simulate real world user interactions
+[00:07:26.17]
+
+[00:07:24.09]
+with your application including clicks
+[00:07:29.03]
+
+[00:07:26.17]
+keyboard input and form submissions
+[00:07:31.06]
+
+[00:07:29.03]
+playwright also has excellent
+[00:07:33.09]
+
+[00:07:31.06]
+documentation and an active Community
+[00:07:36.03]
+
+[00:07:33.09]
+making it a reliable and well-supported
+[00:07:39.16]
+
+[00:07:36.03]
+option for end-to-end testing
+[00:07:41.14]
+
+[00:07:39.16]
+let's move on to the next section which
+[00:07:44.05]
+
+[00:07:41.14]
+is styling in react apps
+[00:07:46.01]
+
+[00:07:44.05]
+selling is an essential aspect of
+[00:07:48.02]
+
+[00:07:46.01]
+building modern web applications but
+[00:07:50.17]
+
+[00:07:48.02]
+with so many styling libraries available
+[00:07:53.11]
+
+[00:07:50.17]
+for react it can be overwhelming to
+[00:07:55.05]
+
+[00:07:53.11]
+choose the right one for your project
+[00:07:57.16]
+
+[00:07:55.05]
+let me show you some popular styling
+[00:07:59.02]
+
+[00:07:57.16]
+libraries that can help you create
+[00:08:03.11]
+
+[00:07:59.02]
+beautiful and responsive user interfaces
+[00:08:06.23]
+
+[00:08:03.11]
+Tillman CSS is a utility-first CSS
+[00:08:08.17]
+
+[00:08:06.23]
+framework that provides a set of
+[00:08:10.13]
+
+[00:08:08.17]
+predefined classes for building UI
+[00:08:11.19]
+
+[00:08:10.13]
+components
+[00:08:14.02]
+
+[00:08:11.19]
+with Tailwind CSS you can quickly create
+[00:08:16.02]
+
+[00:08:14.02]
+complex layouts and custom Styles
+[00:08:18.23]
+
+[00:08:16.02]
+without writing CSS from scratch
+[00:08:21.14]
+
+[00:08:18.23]
+it has excellent documentation and a
+[00:08:24.03]
+
+[00:08:21.14]
+really active Community making it a Top
+[00:08:26.05]
+
+[00:08:24.03]
+Choice for developers looking to create
+[00:08:29.03]
+
+[00:08:26.05]
+modern responsive uis
+[00:08:32.06]
+
+[00:08:29.03]
+next we have styled components which is
+[00:08:34.00]
+
+[00:08:32.06]
+a popular library for styling react
+[00:08:37.21]
+
+[00:08:34.00]
+components using CSS in JS it allows you
+[00:08:40.13]
+
+[00:08:37.21]
+to write CSS directly in your JavaScript
+[00:08:43.03]
+
+[00:08:40.13]
+code making it easy to create Dynamic
+[00:08:44.23]
+
+[00:08:43.03]
+styles that are scoped to individual
+[00:08:48.03]
+
+[00:08:44.23]
+components style components also has
+[00:08:50.01]
+
+[00:08:48.03]
+excellent support for theming allowing
+[00:08:51.16]
+
+[00:08:50.01]
+you to easily switch between different
+[00:08:54.23]
+
+[00:08:51.16]
+styles for your application
+[00:08:57.16]
+
+[00:08:54.23]
+on a similar note we have emotion which
+[00:09:00.13]
+
+[00:08:57.16]
+is another CSS NGS library that provides
+[00:09:02.09]
+
+[00:09:00.13]
+a powerful API for styling react
+[00:09:03.20]
+
+[00:09:02.09]
+components
+[00:09:06.00]
+
+[00:09:03.20]
+it is highly performant and allows you
+[00:09:08.12]
+
+[00:09:06.00]
+to Define styles using a wide range of
+[00:09:12.08]
+
+[00:09:08.12]
+syntaxes including CSS SAS and less
+[00:09:14.21]
+
+[00:09:12.08]
+emotion also has great support for
+[00:09:17.00]
+
+[00:09:14.21]
+Server side rendering making it a great
+[00:09:21.02]
+
+[00:09:17.00]
+choice for Universal react applications
+[00:09:24.00]
+
+[00:09:21.02]
+after styling the next logical section
+[00:09:26.12]
+
+[00:09:24.00]
+is UI component libraries
+[00:09:28.21]
+
+[00:09:26.12]
+component libraries can be a huge Time
+[00:09:31.00]
+
+[00:09:28.21]
+Saver for react developers and there are
+[00:09:34.12]
+
+[00:09:31.00]
+now many excellent options available
+[00:09:37.15]
+
+[00:09:34.12]
+some of the most popular options include
+[00:09:39.06]
+
+[00:09:37.15]
+material UI
+[00:09:41.09]
+
+[00:09:39.06]
+Mantine UI
+[00:09:43.03]
+
+[00:09:41.09]
+and Design
+[00:09:45.01]
+
+[00:09:43.03]
+and chakra UI
+[00:09:48.01]
+
+[00:09:45.01]
+there are also Tailwind CSS Frameworks
+[00:09:51.00]
+
+[00:09:48.01]
+such as headless UI
+[00:09:53.05]
+
+[00:09:51.00]
+Daisy UI
+[00:09:55.09]
+
+[00:09:53.05]
+and chat CN
+[00:09:58.09]
+
+[00:09:55.09]
+I am currently learning here in CSS and
+[00:10:01.01]
+
+[00:09:58.09]
+a huge fan of chat CN
+[00:10:04.06]
+
+[00:10:01.01]
+next up we have animation which can be a
+[00:10:06.04]
+
+[00:10:04.06]
+powerful tool for creating engaging and
+[00:10:08.01]
+
+[00:10:06.04]
+Interactive uis
+[00:10:10.09]
+
+[00:10:08.01]
+there are again excellent animation
+[00:10:12.20]
+
+[00:10:10.09]
+libraries available for react
+[00:10:15.04]
+
+[00:10:12.20]
+some of the most popular options include
+[00:10:18.21]
+
+[00:10:15.04]
+react spring and framework motion these
+[00:10:20.21]
+
+[00:10:18.21]
+libraries make it easy to create smooth
+[00:10:22.22]
+
+[00:10:20.21]
+and responsive animations with minimal
+[00:10:23.21]
+
+[00:10:22.22]
+code
+[00:10:26.14]
+
+[00:10:23.21]
+next section let's talk about data
+[00:10:28.00]
+
+[00:10:26.14]
+visualization
+[00:10:30.10]
+
+[00:10:28.00]
+database is an important part of many
+[00:10:33.00]
+
+[00:10:30.10]
+react applications especially those that
+[00:10:36.08]
+
+[00:10:33.00]
+rely on complex data sets
+[00:10:39.01]
+
+[00:10:36.08]
+some popular database libraries for
+[00:10:41.23]
+
+[00:10:39.01]
+react include victory
+[00:10:45.01]
+
+[00:10:41.23]
+react charge.js2
+[00:10:47.06]
+
+[00:10:45.01]
+and recharge
+[00:10:49.15]
+
+[00:10:47.06]
+recharge is probably the safest bet when
+[00:10:51.03]
+
+[00:10:49.15]
+starting with data visualization in
+[00:10:53.06]
+
+[00:10:51.03]
+react apps
+[00:10:57.06]
+
+[00:10:53.06]
+all right let's talk about tables table
+[00:10:59.01]
+
+[00:10:57.06]
+can be a challenging component to
+[00:11:01.03]
+
+[00:10:59.01]
+implement in react and in the react
+[00:11:02.09]
+
+[00:11:01.03]
+community
+[00:11:05.11]
+
+[00:11:02.09]
+tan stack table is the clear winner
+[00:11:07.24]
+
+[00:11:05.11]
+Library makes it easy to create powerful
+[00:11:10.08]
+
+[00:11:07.24]
+and customizable tables with features
+[00:11:12.20]
+
+[00:11:10.08]
+like sorting filtering pagination and a
+[00:11:15.06]
+
+[00:11:12.20]
+lot more
+[00:11:15.06]
+
+[00:11:15.01]
+next section let's discuss
+[00:11:18.16]
+
+[00:11:16.15]
+internationalization
+[00:11:21.09]
+
+[00:11:18.16]
+i18n is an important consideration for
+[00:11:23.23]
+
+[00:11:21.09]
+many applications especially those with
+[00:11:27.00]
+
+[00:11:23.23]
+a global audience
+[00:11:31.00]
+
+[00:11:27.00]
+libraries like react i18 next and
+[00:11:33.04]
+
+[00:11:31.00]
+format.js help translate your
+[00:11:35.09]
+
+[00:11:33.04]
+application into multiple languages and
+[00:11:38.12]
+
+[00:11:35.09]
+handle localization
+[00:11:38.12]
+
+[00:11:38.14]
+next let's talk about one of my favorite
+[00:11:44.14]
+
+[00:11:40.18]
+sections devtools development tools can
+[00:11:47.06]
+
+[00:11:44.14]
+be a huge help for developers and there
+[00:11:51.09]
+
+[00:11:47.06]
+are quite a few that I use regularly
+[00:11:51.09]
+
+[00:11:51.10]
+we have react developer tools
+[00:11:57.09]
+
+[00:11:54.09]
+Redux Dev tools
+[00:12:01.06]
+
+[00:11:57.09]
+react testing Library Dev tools
+[00:12:04.21]
+
+[00:12:01.06]
+react hook form Dev tools and finally
+[00:12:08.14]
+
+[00:12:04.21]
+tan stack query Dev tools they all are
+[00:12:10.02]
+
+[00:12:08.14]
+just a joy to work with and I highly
+[00:12:13.08]
+
+[00:12:10.02]
+recommend using them
+[00:12:16.08]
+
+[00:12:13.08]
+for creating documentation apps with
+[00:12:21.10]
+
+[00:12:16.08]
+react a really good choice is docosaurus
+[00:12:24.01]
+
+[00:12:21.10]
+of course you can also use nxtjs with a
+[00:12:26.21]
+
+[00:12:24.01]
+framework like next draw
+[00:12:29.08]
+
+[00:12:26.21]
+for component development environment
+[00:12:32.21]
+
+[00:12:29.08]
+and creating Design Systems make sure to
+[00:12:35.08]
+
+[00:12:32.21]
+take a look at storybook
+[00:12:37.16]
+
+[00:12:35.08]
+type checking can help catch bugs and
+[00:12:39.17]
+
+[00:12:37.16]
+improve the reliability of your react
+[00:12:41.09]
+
+[00:12:39.17]
+applications
+[00:12:44.16]
+
+[00:12:41.09]
+typescript is what you will need
+[00:12:46.18]
+
+[00:12:44.16]
+next when it comes to mobile
+[00:12:48.01]
+
+[00:12:46.18]
+applications
+[00:12:50.14]
+
+[00:12:48.01]
+react native has become an increasingly
+[00:12:52.15]
+
+[00:12:50.14]
+popular options for building native
+[00:12:55.11]
+
+[00:12:52.15]
+mobile applications with react
+[00:12:57.01]
+
+[00:12:55.11]
+now I have seen a few but haven't
+[00:12:59.09]
+
+[00:12:57.01]
+received enough requests for react
+[00:13:01.09]
+
+[00:12:59.09]
+native so please let me know in the
+[00:13:03.01]
+
+[00:13:01.09]
+comment section if a series on react
+[00:13:04.15]
+
+[00:13:03.01]
+native is something you're looking
+[00:13:06.03]
+
+[00:13:04.15]
+forward to
+[00:13:09.01]
+
+[00:13:06.03]
+in addition to these libraries and tools
+[00:13:11.06]
+
+[00:13:09.01]
+there are many other awesome libraries
+[00:13:14.05]
+
+[00:13:11.06]
+available for react Developers
+[00:13:17.06]
+
+[00:13:14.05]
+some popular options include DMD kit for
+[00:13:19.21]
+
+[00:13:17.06]
+drag and drop functionality
+[00:13:23.02]
+
+[00:13:19.21]
+react drop zone for file uploads
+[00:13:26.20]
+
+[00:13:23.02]
+and Firebase or Super Bass for
+[00:13:28.02]
+
+[00:13:26.20]
+Authentication
+[00:13:30.21]
+
+[00:13:28.02]
+these libraries can help streamline
+[00:13:33.03]
+
+[00:13:30.21]
+development and improve the user
+[00:13:36.21]
+
+[00:13:33.03]
+experience of your react application
+[00:13:36.21]
+
+[00:13:37.02]
+with that we come to the end of this
+[00:13:40.06]
+
+[00:13:39.06]
+video
+[00:13:42.10]
+
+[00:13:40.06]
+I would really like to hear your
+[00:13:44.14]
+
+[00:13:42.10]
+thoughts so please leave a comment with
+[00:13:47.01]
+
+[00:13:44.14]
+the libraries you regularly use from the
+[00:13:48.20]
+
+[00:13:47.01]
+react ecosystem
+[00:13:51.16]
+
+[00:13:48.20]
+also let me know what other packages I
+[00:13:53.09]
+
+[00:13:51.16]
+should be taking a look at which I have
+[00:13:56.01]
+
+[00:13:53.09]
+missed in this video
+[00:13:56.01]
+

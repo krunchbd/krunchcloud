@@ -1,0 +1,70 @@
+@startuml krunch
+|User|
+
+start
+
+while (User sees all menu items)
+  :User selects item;
+  :Item gets added to cart;
+endwhile
+
+|User|
+:User tries to go to the checkout page;
+
+if (User not signed in?) then (Not signed in)
+  |User|
+  :User is redirected to signin page;
+  |User|
+  :User signs in;
+endif
+
+
+  |User|
+  :User chooses order method (takeout, delivery);
+
+  if (Delivery) then (Delivery)
+    |User|
+    :User finalizes all info (address, etc.);
+  else (no)
+  endif
+  |User|
+:Post request of cart item array is sent to the server;
+  |Server|
+  :Process the cart items;
+  while (Order item is not avaivle) is (Order item is not avaivle)
+  
+    |User|
+    :User proceeds to payment;
+    if (Cash on Delivery or Online Payment?) then (Online Payment)
+      
+        |User|
+      :Redirect user to online payment portal;
+      :process payment;
+      
+      
+      |User|
+      :Send payment success message to server;
+      |Server|
+      :Server checks payment status;
+      while (Payment is successful?) is (unsucessful)
+        |Server|
+        :Reinitiate payment;
+        
+      endwhile (Yes)
+        |Server|
+        :Confirm Order;
+
+
+else (cash on delivery) 
+
+|Server|
+endif
+      :Finalizes order;
+
+
+|User|
+  :Gets order confirmation;
+|Server|
+  :Initiate message to restaurant;
+stop
+@enduml

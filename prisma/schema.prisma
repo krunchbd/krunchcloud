@@ -13,19 +13,21 @@ datasource db {
 
 // Necessary for Next auth
 model Account {
-    id                 String    @id @default(cuid())
-    userId             String
-    provider           String
-    providerAccountId  String
-    refreshToken       String?
-    accessToken        String?
-    accessTokenExpires DateTime?
-    createdAt          DateTime  @default(now())
-
-    user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+    id                String  @id @default(cuid())
+    userId            String
+    type              String
+    provider          String
+    providerAccountId String
+    refresh_token     String? @db.Text
+    access_token      String? @db.Text
+    expires_at        Int?
+    token_type        String?
+    scope             String?
+    id_token          String? @db.Text
+    session_state     String?
+    user              User    @relation(fields: [userId], references: [id], onDelete: Cascade)
 
     @@unique([provider, providerAccountId])
-    @@index([userId])
 }
 
 model Session {
@@ -38,15 +40,23 @@ model Session {
     @@index([userId])
 }
 
+enum UserType {
+    USER
+    DELIVERY
+    MANAGER
+    ADMIN
+}
+
 model User {
     id              String     @id @default(cuid())
     name            String?
     email           String?    @unique
     emailVerified   DateTime?
     image           String?
+    password        String?
+    userType        UserType?
     accounts        Account[]
     sessions        Session[]
-    password        String
     deliveredOrders Delivery[] @relation("delivery")
     orderedOrders   Order[]    @relation("customer")
     managedOrders   Order[]    @relation("manager")
@@ -62,24 +72,28 @@ model VerificationToken {
     @@unique([identifier, token])
 }
 
+enum ItemCategory {
+    MEAT_BOX
+    RICE_BOWL
+    SHAKE
+}
+
 model Item {
-    id                String      @id @unique @default(uuid())
+    id                String       @id @unique @default(uuid())
     name              String
     description       String
     price             Int
-    category          String
+    category          ItemCategory
     orderedEncounters OrderItem[]
 }
 
 model OrderItem {
-    id String @id @unique @default(uuid())
-
+    id       String @id @unique @default(uuid())
     item     Item   @relation(fields: [itemId], references: [id])
     itemId   String
     quantity Int
-
-    order   Order  @relation(fields: [orderId], references: [id])
-    orderId String
+    order    Order  @relation(fields: [orderId], references: [id])
+    orderId  String
 
     @@index([orderId])
     @@index([itemId])
@@ -97,11 +111,17 @@ enum OrderStatus {
     DELIVERY_SUCCESSFUL
 }
 
+enum OrderType {
+    DINE_IN
+    TAKE_OUT
+    DELIVERY
+}
+
 model Order {
     id                    String      @id @unique @default(uuid())
-    customer              User        @relation(name: "customer", fields: [userId], references: [id])
-    userId                String
-    type                  String
+    customer              User        @relation(name: "customer", fields: [customerId], references: [id])
+    customerId            String
+    type                  OrderType
     price                 Int
     manager               User        @relation(name: "manager", fields: [managerId], references: [id])
     managerId             String
@@ -112,7 +132,7 @@ model Order {
     status                OrderStatus
     deliveries            Delivery[]
 
-    @@index([userId])
+    @@index([customerId])
     @@index([managerId])
 }
 
