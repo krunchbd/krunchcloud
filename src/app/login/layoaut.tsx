@@ -1,12 +1,9 @@
-import "./globals.css";
 import React from "react";
-import NextAuthSessionProvider from "./providers/sessionProvider";
 // import { type NextPage } from "next";
 // import Head from "next/head";
 // import Link from "next/link";
 // import { api } from "~/utils/api";
 import type { Metadata } from "next";
-import SignInButton from "~/components/SignInButton";
 
 export const metadata: Metadata = {
   title: "Krunch Cloud",
@@ -22,9 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className=" ">
-      <body className="">
-        <NextAuthSessionProvider>{children}</NextAuthSessionProvider>
-      </body>
+      <body className="h-screen bg-yellow-300">{children}</body>
     </html>
   );
 }
